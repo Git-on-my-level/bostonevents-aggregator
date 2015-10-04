@@ -43,7 +43,6 @@ def default_config():
     with open('config/defaults.cfg', 'wt') as configfile:
         config.write(configfile)
 
-
 def write_to_file(content, filename):
     logging.info('Writing data to "' + filename + '"')
     f = open(filename, 'a+')
